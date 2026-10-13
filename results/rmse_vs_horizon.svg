@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="650" font-family="sans-serif" font-size="13">
+<rect width="1000" height="720" fill="white"/>
+<text x="500" y="26" text-anchor="middle" font-size="18">能量机关转角预测 RMSE vs 预测时域（高斯观测, 拟合窗口=1000ms）</text>
+<rect x="30" y="50" width="400" height="280" fill="#fafafa" stroke="#ccc"/>
+<text x="230.0" y="74" text-anchor="middle" font-size="15">5ms · 小符</text>
+<line x1="100" y1="110" x2="100" y2="270" stroke="#333"/>
+<line x1="100" y1="270" x2="360" y2="270" stroke="#333"/>
+<line x1="100" y1="270.0" x2="360" y2="270.0" stroke="#eee"/>
+<text x="94" y="274.0" text-anchor="end" fill="#666">0</text>
+<text x="100.0" y="288" text-anchor="middle" fill="#666">20</text>
+<text x="128.88888888888889" y="288" text-anchor="middle" fill="#666">40</text>
+<text x="157.77777777777777" y="288" text-anchor="middle" fill="#666">60</text>
+<text x="215.55555555555554" y="288" text-anchor="middle" fill="#666">100</text>
+<text x="287.77777777777777" y="288" text-anchor="middle" fill="#666">150</text>
+<text x="360.0" y="288" text-anchor="middle" fill="#666">200</text>
+<text x="230.0" y="322" text-anchor="middle" fill="#444">预测时域 (ms)</text>
+<text x="44" y="190.0" text-anchor="middle" fill="#444" transform="rotate(-90 44 190.0)">RMSE (deg)</text>
+<polyline fill="none" stroke="#d62728" stroke-width="2" points="100.0,126.4 128.9,129.1 157.8,126.4 215.6,127.8 287.8,128.6 360.0,126.4"/>
+<circle cx="100.0" cy="126.4" r="2.5" fill="#d62728"/>
+<circle cx="128.9" cy="129.1" r="2.5" fill="#d62728"/>
+<circle cx="157.8" cy="126.4" r="2.5" fill="#d62728"/>
+<circle cx="215.6" cy="127.8" r="2.5" fill="#d62728"/>
+<circle cx="287.8" cy="128.6" r="2.5" fill="#d62728"/>
+<circle cx="360.0" cy="126.4" r="2.5" fill="#d62728"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2" points="100.0,127.5 128.9,126.8 157.8,129.5 215.6,130.8 287.8,124.5 360.0,129.0"/>
+<circle cx="100.0" cy="127.5" r="2.5" fill="#1f77b4"/>
+<circle cx="128.9" cy="126.8" r="2.5" fill="#1f77b4"/>
+<circle cx="157.8" cy="129.5" r="2.5" fill="#1f77b4"/>
+<circle cx="215.6" cy="130.8" r="2.5" fill="#1f77b4"/>
+<circle cx="287.8" cy="124.5" r="2.5" fill="#1f77b4"/>
+<circle cx="360.0" cy="129.0" r="2.5" fill="#1f77b4"/>
+<polyline fill="none" stroke="#2ca02c" stroke-width="2" points="100.0,127.7 128.9,127.4 157.8,129.0 215.6,130.4 287.8,125.9 360.0,128.9"/>
+<circle cx="100.0" cy="127.7" r="2.5" fill="#2ca02c"/>
+<circle cx="128.9" cy="127.4" r="2.5" fill="#2ca02c"/>
+<circle cx="157.8" cy="129.0" r="2.5" fill="#2ca02c"/>
+<circle cx="215.6" cy="130.4" r="2.5" fill="#2ca02c"/>
+<circle cx="287.8" cy="125.9" r="2.5" fill="#2ca02c"/>
+<circle cx="360.0" cy="128.9" r="2.5" fill="#2ca02c"/>
+<line x1="108" y1="124" x2="126" y2="124" stroke="#d62728" stroke-width="2"/>
+<text x="132" y="128" fill="#333">EKF</text>
+<line x1="108" y1="140" x2="126" y2="140" stroke="#1f77b4" stroke-width="2"/>
+<text x="132" y="144" fill="#333">LM+IRLS</text>
+<line x1="108" y1="156" x2="126" y2="156" stroke="#2ca02c" stroke-width="2"/>
+<text x="132" y="160" fill="#333">Ceres</text>
+<rect x="450" y="50" width="400" height="280" fill="#fafafa" stroke="#ccc"/>
+<text x="650.0" y="74" text-anchor="middle" font-size="15">5ms · 大符</text>
+<line x1="520" y1="110" x2="520" y2="270" stroke="#333"/>
+<line x1="520" y1="270" x2="780" y2="270" stroke="#333"/>
+<line x1="520" y1="270.0" x2="780" y2="270.0" stroke="#eee"/>
+<text x="514" y="274.0" text-anchor="end" fill="#666">0</text>
+<line x1="520" y1="241.44590784166758" x2="780" y2="241.44590784166758" stroke="#eee"/>
+<text x="514" y="245.44590784166758" text-anchor="end" fill="#666">1</text>
+<line x1="520" y1="212.89181568333512" x2="780" y2="212.89181568333512" stroke="#eee"/>
+<text x="514" y="216.89181568333512" text-anchor="end" fill="#666">2</text>
+<line x1="520" y1="184.33772352500267" x2="780" y2="184.33772352500267" stroke="#eee"/>
+<text x="514" y="188.33772352500267" text-anchor="end" fill="#666">3</text>
+<line x1="520" y1="155.78363136667025" x2="780" y2="155.78363136667025" stroke="#eee"/>
+<text x="514" y="159.78363136667025" text-anchor="end" fill="#666">4</text>
+<line x1="520" y1="127.22953920833783" x2="780" y2="127.22953920833783" stroke="#eee"/>
+<text x="514" y="131.22953920833783" text-anchor="end" fill="#666">5</text>
+<text x="520.0" y="288" text-anchor="middle" fill="#666">20</text>
+<text x="548.8888888888889" y="288" text-anchor="middle" fill="#666">40</text>
+<text x="577.7777777777778" y="288" text-anchor="middle" fill="#666">60</text>
+<text x="635.5555555555555" y="288" text-anchor="middle" fill="#666">100</text>
+<text x="707.7777777777778" y="288" text-anchor="middle" fill="#666">150</text>
+<text x="780.0" y="288" text-anchor="middle" fill="#666">200</text>
+<text x="650.0" y="322" text-anchor="middle" fill="#444">预测时域 (ms)</text>
+<text x="464" y="190.0" text-anchor="middle" fill="#444" transform="rotate(-90 464 190.0)">RMSE (deg)</text>
+<polyline fill="none" stroke="#d62728" stroke-width="2" points="520.0,225.7 548.9,225.2 577.8,215.2 635.6,197.4 707.8,159.6 780.0,124.5"/>
+<circle cx="520.0" cy="225.7" r="2.5" fill="#d62728"/>
+<circle cx="548.9" cy="225.2" r="2.5" fill="#d62728"/>
+<circle cx="577.8" cy="215.2" r="2.5" fill="#d62728"/>
+<circle cx="635.6" cy="197.4" r="2.5" fill="#d62728"/>
+<circle cx="707.8" cy="159.6" r="2.5" fill="#d62728"/>
+<circle cx="780.0" cy="124.5" r="2.5" fill="#d62728"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2" points="520.0,237.9 548.9,232.3 577.8,227.8 635.6,213.0 707.8,187.0 780.0,157.8"/>
+<circle cx="520.0" cy="237.9" r="2.5" fill="#1f77b4"/>
+<circle cx="548.9" cy="232.3" r="2.5" fill="#1f77b4"/>
+<circle cx="577.8" cy="227.8" r="2.5" fill="#1f77b4"/>
+<circle cx="635.6" cy="213.0" r="2.5" fill="#1f77b4"/>
+<circle cx="707.8" cy="187.0" r="2.5" fill="#1f77b4"/>
+<circle cx="780.0" cy="157.8" r="2.5" fill="#1f77b4"/>
+<polyline fill="none" stroke="#2ca02c" stroke-width="2" points="520.0,219.9 548.9,213.9 577.8,210.1 635.6,196.2 707.8,172.1 780.0,142.9"/>
+<circle cx="520.0" cy="219.9" r="2.5" fill="#2ca02c"/>
+<circle cx="548.9" cy="213.9" r="2.5" fill="#2ca02c"/>
+<circle cx="577.8" cy="210.1" r="2.5" fill="#2ca02c"/>
+<circle cx="635.6" cy="196.2" r="2.5" fill="#2ca02c"/>
+<circle cx="707.8" cy="172.1" r="2.5" fill="#2ca02c"/>
+<circle cx="780.0" cy="142.9" r="2.5" fill="#2ca02c"/>
+<line x1="528" y1="124" x2="546" y2="124" stroke="#d62728" stroke-width="2"/>
+<text x="552" y="128" fill="#333">EKF</text>
+<line x1="528" y1="140" x2="546" y2="140" stroke="#1f77b4" stroke-width="2"/>
+<text x="552" y="144" fill="#333">LM+IRLS</text>
+<line x1="528" y1="156" x2="546" y2="156" stroke="#2ca02c" stroke-width="2"/>
+<text x="552" y="160" fill="#333">Ceres</text>
+<rect x="30" y="350" width="400" height="280" fill="#fafafa" stroke="#ccc"/>
+<text x="230.0" y="374" text-anchor="middle" font-size="15">per_frame · 小符</text>
+<line x1="100" y1="410" x2="100" y2="570" stroke="#333"/>
+<line x1="100" y1="570" x2="360" y2="570" stroke="#333"/>
+<line x1="100" y1="570.0" x2="360" y2="570.0" stroke="#eee"/>
+<text x="94" y="574.0" text-anchor="end" fill="#666">0</text>
+<text x="100.0" y="588" text-anchor="middle" fill="#666">20</text>
+<text x="128.88888888888889" y="588" text-anchor="middle" fill="#666">40</text>
+<text x="157.77777777777777" y="588" text-anchor="middle" fill="#666">60</text>
+<text x="215.55555555555554" y="588" text-anchor="middle" fill="#666">100</text>
+<text x="287.77777777777777" y="588" text-anchor="middle" fill="#666">150</text>
+<text x="360.0" y="588" text-anchor="middle" fill="#666">200</text>
+<text x="230.0" y="622" text-anchor="middle" fill="#444">预测时域 (ms)</text>
+<text x="44" y="490.0" text-anchor="middle" fill="#444" transform="rotate(-90 44 490.0)">RMSE (deg)</text>
+<polyline fill="none" stroke="#d62728" stroke-width="2" points="100.0,516.5 128.9,513.8 157.8,516.5 215.6,516.9 287.8,514.3 360.0,516.8"/>
+<circle cx="100.0" cy="516.5" r="2.5" fill="#d62728"/>
+<circle cx="128.9" cy="513.8" r="2.5" fill="#d62728"/>
+<circle cx="157.8" cy="516.5" r="2.5" fill="#d62728"/>
+<circle cx="215.6" cy="516.9" r="2.5" fill="#d62728"/>
+<circle cx="287.8" cy="514.3" r="2.5" fill="#d62728"/>
+<circle cx="360.0" cy="516.8" r="2.5" fill="#d62728"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2" points="100.0,452.6 128.9,446.8 157.8,447.2 215.6,439.9 287.8,430.4 360.0,424.5"/>
+<circle cx="100.0" cy="452.6" r="2.5" fill="#1f77b4"/>
+<circle cx="128.9" cy="446.8" r="2.5" fill="#1f77b4"/>
+<circle cx="157.8" cy="447.2" r="2.5" fill="#1f77b4"/>
+<circle cx="215.6" cy="439.9" r="2.5" fill="#1f77b4"/>
+<circle cx="287.8" cy="430.4" r="2.5" fill="#1f77b4"/>
+<circle cx="360.0" cy="424.5" r="2.5" fill="#1f77b4"/>
+<polyline fill="none" stroke="#2ca02c" stroke-width="2" points="100.0,461.0 128.9,455.8 157.8,456.2 215.6,450.3 287.8,442.1 360.0,437.4"/>
+<circle cx="100.0" cy="461.0" r="2.5" fill="#2ca02c"/>
+<circle cx="128.9" cy="455.8" r="2.5" fill="#2ca02c"/>
+<circle cx="157.8" cy="456.2" r="2.5" fill="#2ca02c"/>
+<circle cx="215.6" cy="450.3" r="2.5" fill="#2ca02c"/>
+<circle cx="287.8" cy="442.1" r="2.5" fill="#2ca02c"/>
+<circle cx="360.0" cy="437.4" r="2.5" fill="#2ca02c"/>
+<line x1="108" y1="424" x2="126" y2="424" stroke="#d62728" stroke-width="2"/>
+<text x="132" y="428" fill="#333">EKF</text>
+<line x1="108" y1="440" x2="126" y2="440" stroke="#1f77b4" stroke-width="2"/>
+<text x="132" y="444" fill="#333">LM+IRLS</text>
+<line x1="108" y1="456" x2="126" y2="456" stroke="#2ca02c" stroke-width="2"/>
+<text x="132" y="460" fill="#333">Ceres</text>
+<rect x="450" y="350" width="400" height="280" fill="#fafafa" stroke="#ccc"/>
+<text x="650.0" y="374" text-anchor="middle" font-size="15">per_frame · 大符</text>
+<line x1="520" y1="410" x2="520" y2="570" stroke="#333"/>
+<line x1="520" y1="570" x2="780" y2="570" stroke="#333"/>
+<line x1="520" y1="570.0" x2="780" y2="570.0" stroke="#eee"/>
+<text x="514" y="574.0" text-anchor="end" fill="#666">0</text>
+<line x1="520" y1="539.4412309988917" x2="780" y2="539.4412309988917" stroke="#eee"/>
+<text x="514" y="543.4412309988917" text-anchor="end" fill="#666">1</text>
+<line x1="520" y1="508.88246199778337" x2="780" y2="508.88246199778337" stroke="#eee"/>
+<text x="514" y="512.8824619977834" text-anchor="end" fill="#666">2</text>
+<line x1="520" y1="478.32369299667505" x2="780" y2="478.32369299667505" stroke="#eee"/>
+<text x="514" y="482.32369299667505" text-anchor="end" fill="#666">3</text>
+<line x1="520" y1="447.76492399556673" x2="780" y2="447.76492399556673" stroke="#eee"/>
+<text x="514" y="451.76492399556673" text-anchor="end" fill="#666">4</text>
+<line x1="520" y1="417.20615499445836" x2="780" y2="417.20615499445836" stroke="#eee"/>
+<text x="514" y="421.20615499445836" text-anchor="end" fill="#666">5</text>
+<text x="520.0" y="588" text-anchor="middle" fill="#666">20</text>
+<text x="548.8888888888889" y="588" text-anchor="middle" fill="#666">40</text>
+<text x="577.7777777777778" y="588" text-anchor="middle" fill="#666">60</text>
+<text x="635.5555555555555" y="588" text-anchor="middle" fill="#666">100</text>
+<text x="707.7777777777778" y="588" text-anchor="middle" fill="#666">150</text>
+<text x="780.0" y="588" text-anchor="middle" fill="#666">200</text>
+<text x="650.0" y="622" text-anchor="middle" fill="#444">预测时域 (ms)</text>
+<text x="464" y="490.0" text-anchor="middle" fill="#444" transform="rotate(-90 464 490.0)">RMSE (deg)</text>
+<polyline fill="none" stroke="#d62728" stroke-width="2" points="520.0,547.7 548.9,534.9 577.8,534.8 635.6,505.3 707.8,481.7 780.0,441.0"/>
+<circle cx="520.0" cy="547.7" r="2.5" fill="#d62728"/>
+<circle cx="548.9" cy="534.9" r="2.5" fill="#d62728"/>
+<circle cx="577.8" cy="534.8" r="2.5" fill="#d62728"/>
+<circle cx="635.6" cy="505.3" r="2.5" fill="#d62728"/>
+<circle cx="707.8" cy="481.7" r="2.5" fill="#d62728"/>
+<circle cx="780.0" cy="441.0" r="2.5" fill="#d62728"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2" points="520.0,546.0 548.9,534.6 577.8,534.5 635.6,509.3 707.8,486.6 780.0,446.8"/>
+<circle cx="520.0" cy="546.0" r="2.5" fill="#1f77b4"/>
+<circle cx="548.9" cy="534.6" r="2.5" fill="#1f77b4"/>
+<circle cx="577.8" cy="534.5" r="2.5" fill="#1f77b4"/>
+<circle cx="635.6" cy="509.3" r="2.5" fill="#1f77b4"/>
+<circle cx="707.8" cy="486.6" r="2.5" fill="#1f77b4"/>
+<circle cx="780.0" cy="446.8" r="2.5" fill="#1f77b4"/>
+<polyline fill="none" stroke="#2ca02c" stroke-width="2" points="520.0,523.8 548.9,513.5 577.8,513.5 635.6,488.9 707.8,466.0 780.0,424.5"/>
+<circle cx="520.0" cy="523.8" r="2.5" fill="#2ca02c"/>
+<circle cx="548.9" cy="513.5" r="2.5" fill="#2ca02c"/>
+<circle cx="577.8" cy="513.5" r="2.5" fill="#2ca02c"/>
+<circle cx="635.6" cy="488.9" r="2.5" fill="#2ca02c"/>
+<circle cx="707.8" cy="466.0" r="2.5" fill="#2ca02c"/>
+<circle cx="780.0" cy="424.5" r="2.5" fill="#2ca02c"/>
+<line x1="528" y1="424" x2="546" y2="424" stroke="#d62728" stroke-width="2"/>
+<text x="552" y="428" fill="#333">EKF</text>
+<line x1="528" y1="440" x2="546" y2="440" stroke="#1f77b4" stroke-width="2"/>
+<text x="552" y="444" fill="#333">LM+IRLS</text>
+<line x1="528" y1="456" x2="546" y2="456" stroke="#2ca02c" stroke-width="2"/>
+<text x="552" y="460" fill="#333">Ceres</text>
+</svg>

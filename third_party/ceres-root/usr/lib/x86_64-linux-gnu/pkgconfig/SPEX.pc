@@ -1,0 +1,18 @@
+# SPEX, Copyright (c) 2019-2024, Chris Lourenco (US Naval Academy), Jinhao Chen
+# Lorena Mejia Domenzain, Erick Moreno-Centeno, and Timothy A. Davis, Texas A&M.
+# All Rights Reserved.
+# SPDX-License-Identifier: GPL-2.0-or-later or LGPL-3.0-or-later
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include/suitesparse
+
+Name: SPEX
+URL: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: Software package for SParse EXact algebra in SuiteSparse
+Version: 3.2.4
+Requires.private: SuiteSparse_config AMD COLAMD
+Libs: -L${libdir} -lspex
+Libs.private:  -lmpfr -lgmp -lgomp -lpthread -lm
+Cflags: -I${includedir}

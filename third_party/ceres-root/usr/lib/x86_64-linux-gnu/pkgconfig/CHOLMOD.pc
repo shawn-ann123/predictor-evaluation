@@ -1,0 +1,17 @@
+# CHOLMOD, Copyright (c) 2005-2023, Timothy A. Davis.
+# All Rights Reserved.
+# SPDX-License-Identifier: LGPL-2.1-or-later AND GPL-2.0-or-later AND Apache-2.0
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include/suitesparse
+
+Name: CHOLMOD
+URL: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: Routines for factorizing sparse symmetric positive definite matrices in SuiteSparse
+Version: 5.3.4
+Requires.private: SuiteSparse_config AMD COLAMD  CAMD CCOLAMD
+Libs: -L${libdir} -lcholmod
+Libs.private:  /usr/lib/gcc/x86_64-linux-gnu/15/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a -lm /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libblas.so
+Cflags: -I${includedir} 

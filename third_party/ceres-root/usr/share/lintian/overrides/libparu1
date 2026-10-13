@@ -1,0 +1,2 @@
+# C++ code, so we don't try to provide a symbols file
+libparu1: no-symbols-control-file usr/lib/*/libparu.so.*

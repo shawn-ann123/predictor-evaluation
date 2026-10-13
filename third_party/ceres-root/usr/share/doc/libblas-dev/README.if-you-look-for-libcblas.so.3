@@ -1,0 +1,22 @@
+lapack (3.8.0-8) unstable; urgency=medium
+
+  * README if you look for libcblas.so
+    ==================================
+
+    Debian science team maintainers have merged the CBLAS ABI into
+    the libblas.so shared object. Everything you need from libcblas.so
+    can be found in libblas.so . Please link your program against it
+    instead. See also
+
+      https://lists.debian.org/debian-devel/2019/10/msg00273.html
+      https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=943712
+      https://wiki.debian.org/DebianScience/LinearAlgebraLibraries
+
+    This README file has an unusual name because we expect users to
+    find it by this way:
+
+      $ apt-file search libcblas
+      /usr/share/doc/libblas-dev/README.if-you-look-for-libcblas.so
+      /usr/lib/...
+
+ -- Mo Zhou <cdluminate@gmail.com>  Tue, 29 Oct 2019 09:22:18 +0800

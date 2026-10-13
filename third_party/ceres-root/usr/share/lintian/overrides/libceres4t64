@@ -1,0 +1,3 @@
+# We won't issue a symbols file for this C++ library, using shlibs instead.
+libceres4t64: no-symbols-control-file usr/lib/*/libceres.so.*
+libceres4t64: package-name-doesnt-match-sonames libceres4

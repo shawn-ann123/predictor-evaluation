@@ -1,0 +1,24 @@
+{
+  "tool": "capture_rune_angles",
+  "ipc_dir": "/run/user/1000/daedalus-learning-1000",
+  "samples_per_series": 1000,
+  "nominal_period_ms": 5,
+  "team": "red",
+  "noise": {
+    "gaussian_sigma_deg": 0.5,
+    "uniform_halfwidth_deg": 0.2,
+    "combined_enabled": true,
+    "seed": 20261013
+  },
+  "series_count": 8,
+  "series": [
+    {"mode": "small", "series": "angle_truth", "file": "rune_small_sequences.csv", "angle_column": "angle_truth_rad", "unwrap_column": "angle_truth_unwrap_rad"},
+    {"mode": "small", "series": "angle_obs_gauss", "file": "rune_small_sequences.csv", "angle_column": "angle_obs_gauss_rad", "unwrap_column": "angle_obs_gauss_unwrap_rad"},
+    {"mode": "small", "series": "angle_obs_uniform", "file": "rune_small_sequences.csv", "angle_column": "angle_obs_uniform_rad", "unwrap_column": "angle_obs_uniform_unwrap_rad"},
+    {"mode": "small", "series": "angle_obs_combined", "file": "rune_small_sequences.csv", "angle_column": "angle_obs_combined_rad", "unwrap_column": "angle_obs_combined_unwrap_rad"},
+    {"mode": "large", "series": "angle_truth", "file": "rune_large_sequences.csv", "angle_column": "angle_truth_rad", "unwrap_column": "angle_truth_unwrap_rad"},
+    {"mode": "large", "series": "angle_obs_gauss", "file": "rune_large_sequences.csv", "angle_column": "angle_obs_gauss_rad", "unwrap_column": "angle_obs_gauss_unwrap_rad"},
+    {"mode": "large", "series": "angle_obs_uniform", "file": "rune_large_sequences.csv", "angle_column": "angle_obs_uniform_rad", "unwrap_column": "angle_obs_uniform_unwrap_rad"},
+    {"mode": "large", "series": "angle_obs_combined", "file": "rune_large_sequences.csv", "angle_column": "angle_obs_combined_rad", "unwrap_column": "angle_obs_combined_unwrap_rad"}
+  ]
+}

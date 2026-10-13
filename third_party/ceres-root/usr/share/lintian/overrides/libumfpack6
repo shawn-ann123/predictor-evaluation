@@ -1,0 +1,2 @@
+# False positive
+libumfpack6: hardening-no-fortify-functions [usr/lib/*/libumfpack.so.6.*]

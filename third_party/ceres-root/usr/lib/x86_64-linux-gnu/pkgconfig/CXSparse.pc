@@ -1,0 +1,17 @@
+# CXSparse, Copyright (c) 2006-2023, Timothy A. Davis.
+# All Rights Reserved.
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include/suitesparse
+
+Name: CXSparse
+URL: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: Direct methods for sparse linear systems for real and complex matrices in SuiteSparse
+Version: 4.4.2
+Requires.private: SuiteSparse_config
+Libs: -L${libdir} -lcxsparse
+Libs.private:  -lm
+Cflags: -I${includedir}

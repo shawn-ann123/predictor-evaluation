@@ -1,0 +1,2 @@
+# C++ code, so we don't try to provide a symbols file
+libspqr4: no-symbols-control-file usr/lib/*/libspqr.so.4.*
